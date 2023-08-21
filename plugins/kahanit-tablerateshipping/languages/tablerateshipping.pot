@@ -1,0 +1,861 @@
+# Copyright (C) 2017 Table Rate Shipping
+# This file is distributed under the same license as the Table Rate Shipping package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Table Rate Shipping 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/kahanit-"
+"tablerateshipping\n"
+"POT-Creation-Date: 2017-12-22 08:50:41+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: libraries/class-trs-evalmath.php:97
+msgid "cannot assign to constant \"%s\""
+msgstr ""
+
+#: libraries/class-trs-evalmath.php:109
+msgid "cannot redefine built-in function \"%s()\""
+msgstr ""
+
+#: libraries/class-trs-evalmath.php:121
+msgid "undefined variable \"%s\" in function definition"
+msgstr ""
+
+#: libraries/class-trs-evalmath.php:178
+msgid "illegal character \"%s\""
+msgstr ""
+
+#: libraries/class-trs-evalmath.php:190
+msgid "illegal character \"_\""
+msgstr ""
+
+#: libraries/class-trs-evalmath.php:209 libraries/class-trs-evalmath.php:274
+msgid "unexpected \")\""
+msgstr ""
+
+#: libraries/class-trs-evalmath.php:220
+msgid "too many arguments (%s given, 1 expected)"
+msgstr ""
+
+#: libraries/class-trs-evalmath.php:224
+msgid "wrong number of arguments (%s given, %s expected)"
+msgstr ""
+
+#: libraries/class-trs-evalmath.php:227 libraries/class-trs-evalmath.php:315
+#: libraries/class-trs-evalmath.php:318 libraries/class-trs-evalmath.php:351
+#: libraries/class-trs-evalmath.php:363 libraries/class-trs-evalmath.php:383
+msgid "internal error"
+msgstr ""
+
+#: libraries/class-trs-evalmath.php:235 libraries/class-trs-evalmath.php:243
+msgid "unexpected \",\""
+msgstr ""
+
+#: libraries/class-trs-evalmath.php:276
+msgid "unexpected operator \"%s\""
+msgstr ""
+
+#: libraries/class-trs-evalmath.php:278
+msgid "an unexpected error occured"
+msgstr ""
+
+#: libraries/class-trs-evalmath.php:282
+msgid "operator \"%s\" lacks operand"
+msgstr ""
+
+#: libraries/class-trs-evalmath.php:294
+msgid "expecting \")\""
+msgstr ""
+
+#: libraries/class-trs-evalmath.php:332
+msgid "division by zero"
+msgstr ""
+
+#: libraries/class-trs-evalmath.php:377
+msgid "undefined variable \"%s\""
+msgstr ""
+
+#: libraries/class-trs-helper.php:244
+#: tests/phpunit/tests/libraries/class-trs-helper.php:205
+msgid "and more..."
+msgstr ""
+
+#: libraries/class-trs-helper.php:272
+msgid "Error deleting shipping method."
+msgstr ""
+
+#: libraries/class-trs-helper.php:279
+msgid "Shipping method deleted successfully!"
+msgstr ""
+
+#: libraries/class-trs-method.php:36 libraries/class-trs-method.php:50
+#: templates/field_table_rates.php:18 templates/help.php:23
+msgid "Table Rates"
+msgstr ""
+
+#: libraries/class-trs-method.php:37
+msgid ""
+"Lets you charge shipping cost based on shipping class, weight, price, "
+"quanity and volume."
+msgstr ""
+
+#: libraries/class-trs-method.php:45 templates/help.php:22
+#: templates/help.php:95
+msgid "Method Title"
+msgstr ""
+
+#: libraries/class-trs-method.php:47
+msgid "Table Rate"
+msgstr ""
+
+#: libraries/class-trs-method.php:55 templates/help.php:64
+msgid "Tax Status"
+msgstr ""
+
+#: libraries/class-trs-method.php:60
+msgid "Taxable"
+msgstr ""
+
+#: libraries/class-trs-method.php:61
+msgid "None"
+msgstr ""
+
+#: libraries/class-trs-method.php:65 templates/help.php:48
+#: templates/help.php:65
+msgid "Weight Type"
+msgstr ""
+
+#: libraries/class-trs-method.php:70 templates/help.php:67
+msgid "Use actual weight"
+msgstr ""
+
+#: libraries/class-trs-method.php:71 templates/help.php:68
+msgid "Use volumetric weight"
+msgstr ""
+
+#: libraries/class-trs-method.php:72 templates/help.php:69
+msgid "Use greater among actual and volumetric weights"
+msgstr ""
+
+#: libraries/class-trs-method.php:73 templates/help.php:70
+msgid "Use smaller among actual and volumetric weights"
+msgstr ""
+
+#: libraries/class-trs-method.php:77 templates/help.php:73
+msgid "Volumetric Divisor"
+msgstr ""
+
+#: libraries/class-trs-method.php:82 templates/help.php:49
+#: templates/help.php:74
+msgid "Price Type"
+msgstr ""
+
+#: libraries/class-trs-method.php:87 templates/help.php:76
+msgid "Tax incl."
+msgstr ""
+
+#: libraries/class-trs-method.php:88 templates/help.php:77
+msgid "Tax excl."
+msgstr ""
+
+#: libraries/class-trs-method.php:92 templates/help.php:80
+#: templates/help.php:90 templates/help.php:92
+msgid "Calculation Type"
+msgstr ""
+
+#: libraries/class-trs-method.php:97 templates/help.php:82
+#: templates/help.php:91
+msgid "Per order"
+msgstr ""
+
+#: libraries/class-trs-method.php:98 templates/help.php:83
+#: templates/help.php:93
+msgid "Per line"
+msgstr ""
+
+#: libraries/class-trs-method.php:99 templates/help.php:84
+#: templates/help.php:94
+msgid "Per class"
+msgstr ""
+
+#: libraries/class-trs-method.php:103 templates/help.php:22
+#: templates/help.php:53 templates/help.php:87
+msgid "Use Comment as Title"
+msgstr ""
+
+#: libraries/class-trs-model.php:218
+msgid "Invalid \"Instance Id\"."
+msgstr ""
+
+#: libraries/class-trs-model.php:239
+msgid "Invalid \"Shipping Class\"."
+msgstr ""
+
+#: libraries/class-trs-model.php:253
+msgid "Invalid \"%s\". Range should be from small to big number."
+msgstr ""
+
+#: libraries/class-trs-model.php:295
+msgid "Formula Error: %s."
+msgstr ""
+
+#: libraries/class-trs-model.php:325
+msgid "Rule exists."
+msgstr ""
+
+#: libraries/class-trs-model.php:340
+msgid "== Zone %d =="
+msgstr ""
+
+#: libraries/class-trs-model.php:343
+msgid "Rule %d:"
+msgstr ""
+
+#: libraries/class-trs-model.php:384 libraries/class-trs-model.php:415
+msgid "Error saving rule."
+msgstr ""
+
+#: libraries/class-trs-model.php:397 libraries/class-trs-model.php:423
+msgid "Rule saved successfully!"
+msgstr ""
+
+#: libraries/class-trs-model.php:499
+msgid "No rules found."
+msgstr ""
+
+#: libraries/class-trs-model.php:534 libraries/class-trs-model.php:667
+msgid "Rules saved successfully!"
+msgstr ""
+
+#: libraries/class-trs-model.php:553
+msgid "Error updating rules."
+msgstr ""
+
+#: libraries/class-trs-model.php:558
+msgid "Rules updated successfully!"
+msgstr ""
+
+#: libraries/class-trs-model.php:588
+msgid "Order updated successfully!"
+msgstr ""
+
+#: libraries/class-trs-model.php:607
+msgid "Error deleting rules."
+msgstr ""
+
+#: libraries/class-trs-model.php:614
+msgid "Rules deleted successfully!"
+msgstr ""
+
+#: libraries/class-trs-model.php:649
+msgid "Zone table rates skipped, no matching zone name found."
+msgstr ""
+
+#: libraries/class-trs-model.php:677
+msgid "File not found."
+msgstr ""
+
+#: libraries/class-trs-model.php:691
+msgid "Invalid CSV data."
+msgstr ""
+
+#: libraries/class-trs-model.php:801
+#: tests/phpunit/tests/libraries/class-trs-model.php:461
+msgid "No records found"
+msgstr ""
+
+#: libraries/class-trs-model.php:874
+msgid "Table optimized successfully!"
+msgstr ""
+
+#: libraries/class-trs-model.php:879
+msgid "Error optimizing table, please try again."
+msgstr ""
+
+#: tablerateshipping.php:115
+msgid "Settings"
+msgstr ""
+
+#: tablerateshipping.php:116
+msgid "Support"
+msgstr ""
+
+#. #-#-#-#-#  tablerateshipping.pot (Table Rate Shipping 1.2.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: tablerateshipping.php:189 tablerateshipping.php:233
+msgid "Table Rate Shipping"
+msgstr ""
+
+#: tablerateshipping.php:191
+msgid "Import CSV"
+msgstr ""
+
+#: tablerateshipping.php:193
+msgid "Export CSV"
+msgstr ""
+
+#: tablerateshipping.php:197
+msgid "You can import and export zone details with table rate shipping rules."
+msgstr ""
+
+#: tablerateshipping.php:198
+msgid "To get sample CSV format you can export CSV after creating few rules."
+msgstr ""
+
+#: tablerateshipping.php:199
+msgid "If zone name already exists it will be updated else created new."
+msgstr ""
+
+#: tablerateshipping.php:209 templates/field_table_rates.php:128
+msgid "Showing {0} to {1} of {2} items"
+msgstr ""
+
+#: tablerateshipping.php:210 templates/field_table_rates.php:129
+msgid "Items per page"
+msgstr ""
+
+#: tablerateshipping.php:211 templates/field_table_rates.php:130
+msgid "- Any -"
+msgstr ""
+
+#: tablerateshipping.php:212 templates/field_table_rates.php:131
+#: templates/help.php:25 templates/help.php:61
+msgid "Save"
+msgstr ""
+
+#: tablerateshipping.php:213 templates/field_table_rates.php:132
+msgid "Choose CSV"
+msgstr ""
+
+#: tablerateshipping.php:214 templates/field_table_rates.php:133
+msgid "Are you sure?"
+msgstr ""
+
+#: tablerateshipping.php:215 templates/field_table_rates.php:134
+msgid "No rules selected."
+msgstr ""
+
+#: tablerateshipping.php:216 templates/field_table_rates.php:135
+msgid "Imported &raquo; zone: {0} &raquo; rule: {1}."
+msgstr ""
+
+#: tablerateshipping.php:217 templates/field_table_rates.php:136
+msgid "Reload page to see the result."
+msgstr ""
+
+#: tablerateshipping.php:238 templates/help.php:33 templates/help.php:34
+msgid "CSV Separator"
+msgstr ""
+
+#: templates/field_table_rates.php:21 templates/help.php:30
+msgid "Enable"
+msgstr ""
+
+#: templates/field_table_rates.php:22 templates/help.php:31
+msgid "Disable"
+msgstr ""
+
+#: templates/field_table_rates.php:23 templates/help.php:32
+#: templates/help.php:57
+msgid "Delete"
+msgstr ""
+
+#: templates/field_table_rates.php:24 templates/help.php:33
+msgid "CSV Import"
+msgstr ""
+
+#: templates/field_table_rates.php:25 templates/help.php:33
+#: templates/help.php:34
+msgid "CSV Export"
+msgstr ""
+
+#: templates/field_table_rates.php:26 templates/help.php:35
+msgid "Optimize"
+msgstr ""
+
+#: templates/field_table_rates.php:27 templates/help.php:36
+msgid "Reload"
+msgstr ""
+
+#: templates/field_table_rates.php:29 templates/help.php:28
+msgid "Bulk Actions"
+msgstr ""
+
+#: templates/field_table_rates.php:36 templates/field_table_rates.php:37
+#: templates/help.php:39
+msgid "Limits"
+msgstr ""
+
+#: templates/field_table_rates.php:67
+msgid "Active"
+msgstr ""
+
+#: templates/field_table_rates.php:68
+msgid "Inactive"
+msgstr ""
+
+#: templates/field_table_rates.php:72 templates/field_table_rates.php:73
+#: templates/help.php:40
+msgid "Filters"
+msgstr ""
+
+#: templates/field_table_rates.php:78
+msgid "Select All"
+msgstr ""
+
+#: templates/field_table_rates.php:82 templates/field_table_rates.php:83
+#: templates/help.php:47
+msgid "Shipping Class"
+msgstr ""
+
+#: templates/field_table_rates.php:86 templates/field_table_rates.php:87
+#: templates/help.php:48
+msgid "Weight"
+msgstr ""
+
+#: templates/field_table_rates.php:90 templates/field_table_rates.php:91
+#: templates/help.php:49
+msgid "Price"
+msgstr ""
+
+#: templates/field_table_rates.php:94 templates/field_table_rates.php:95
+#: templates/help.php:50
+msgid "Quantity"
+msgstr ""
+
+#: templates/field_table_rates.php:98 templates/field_table_rates.php:99
+#: templates/help.php:51
+msgid "Volume"
+msgstr ""
+
+#: templates/field_table_rates.php:102 templates/field_table_rates.php:103
+#: templates/help.php:52
+msgid "Cost"
+msgstr ""
+
+#: templates/field_table_rates.php:106 templates/field_table_rates.php:107
+#: templates/help.php:53
+msgid "Comment"
+msgstr ""
+
+#: templates/field_table_rates.php:110 templates/field_table_rates.php:111
+#: templates/help.php:54
+msgid "Status"
+msgstr ""
+
+#: templates/field_table_rates.php:114 templates/field_table_rates.php:115
+#: templates/help.php:55
+msgid "Actions"
+msgstr ""
+
+#: templates/help.php:17
+msgid "== Help =="
+msgstr ""
+
+#: templates/help.php:19
+msgid "Options"
+msgstr ""
+
+#: templates/help.php:21
+msgid "Debug Mode"
+msgstr ""
+
+#: templates/help.php:21
+msgid ""
+"While configuring and testing plugin enable shipping debug mode option <a "
+"href=\"%s\" target=\"_blank\">here</a> to bypass shipping rate cache."
+msgstr ""
+
+#: templates/help.php:22
+msgid ""
+"It is shown as shipping method name to customers during checkout. If \"%s\" "
+"is enabled then comment in matched rule is shown as method name."
+msgstr ""
+
+#: templates/help.php:25
+msgid "New Rule"
+msgstr ""
+
+#: templates/help.php:25
+msgid ""
+"Fill the values in last row of table and click \"%s\" to create new rule. "
+"You can add multiple rules at a time, while filling values in a rule, new "
+"empty row will be added below it."
+msgstr ""
+
+#: templates/help.php:26
+msgid "Update Rule"
+msgstr ""
+
+#: templates/help.php:26
+msgid ""
+"When you click table cell it allows editing that value. You can hit escape "
+"to exit without saving and hit enter or click anywhere outside edit field to "
+"update the value."
+msgstr ""
+
+#: templates/help.php:27 templates/help.php:58
+msgid "Rule Priority"
+msgstr ""
+
+#: templates/help.php:27
+msgid ""
+"Rules are checked from first to last to check for limits and if package "
+"details are in rule limits that rule is used for shipping cost and it will "
+"stop looking further."
+msgstr ""
+
+#: templates/help.php:30
+msgid "Enable selected rules."
+msgstr ""
+
+#: templates/help.php:31
+msgid "Disable selected rules."
+msgstr ""
+
+#: templates/help.php:32
+msgid "Deleted selected rules."
+msgstr ""
+
+#: templates/help.php:33
+msgid ""
+"Import rules from uploaded CSV file to table. To get sample CSV file format, "
+"create few rules in table and click \"%s\". In shipping class column \"class"
+"\" you can insert comma separated shipping class ids or shipping class "
+"slugs. Separator specified in \"%s\" is used while rendering CSV file."
+msgstr ""
+
+#: templates/help.php:34
+msgid ""
+"Export rules from table to CSV file. Separator specified in \"%s\" field is "
+"used while generating CSV file."
+msgstr ""
+
+#: templates/help.php:35
+msgid "Delete orphaned rules from database table."
+msgstr ""
+
+#: templates/help.php:36
+msgid "Reload table rates table."
+msgstr ""
+
+#: templates/help.php:39
+msgid ""
+"Package details are checked against all 5 limits. For particular rule to be "
+"considered all 5 package details should be in defined limits. If you want to "
+"skip any column, just leave it blank."
+msgstr ""
+
+#: templates/help.php:42
+msgid ""
+"When you select shipping classes to filter all the rules that satisfy that "
+"filter are shown. E.g. when you select \"Class One\" all the rules that "
+"contains \"Class One\" and \"- Any -\" are shown."
+msgstr ""
+
+#: templates/help.php:43
+msgid ""
+"You can filter weight, price, quantity &amp; volume by fixed value and "
+"range. All the rules that come under that filter will be shown. E.g. when "
+"you type \"4\" all the rules like \"4\", \"1-5\", \"1-4\" &amp; \"4-7\" are "
+"shown and when you type \"3-6\" all the rules like \"4\", \"1-3\", \"6-8\", "
+"\"4-5\" &amp; \"1-8\" are shown."
+msgstr ""
+
+#: templates/help.php:44
+msgid ""
+"When you filter by cost, comment &amp; active all rules that exactly matches "
+"that filter are shown."
+msgstr ""
+
+#: templates/help.php:47
+msgid "Select shipping classes. You can select multiple classes."
+msgstr ""
+
+#: templates/help.php:48
+msgid ""
+"Define weight limit. It can be fixed value or range. You can define range as "
+"10.5-15.5, to meet this range package weight should be equal or in between "
+"upper and lower limit. Weight can be actual or volumetric based on selected "
+"option in \"%s\"."
+msgstr ""
+
+#: templates/help.php:49
+msgid ""
+"Define price limit. It can be defined same as weight in fixed value or "
+"range. Price can be tax incl. or excl. based on selected option in \"%s\"."
+msgstr ""
+
+#: templates/help.php:50
+msgid ""
+"Define quantity limit. It can be defined same as weight in fixed value or "
+"range."
+msgstr ""
+
+#: templates/help.php:51
+msgid ""
+"Define volume limit. It can be defined same as weight in fixed value or "
+"range. Product volume is calculated as length x width x height."
+msgstr ""
+
+#: templates/help.php:52
+msgid ""
+"Define shipping cost for the limits in the row. It can be a fixed value or "
+"\"%s\"."
+msgstr ""
+
+#: templates/help.php:52 templates/help.php:102
+msgid "Cost Formula"
+msgstr ""
+
+#: templates/help.php:53
+msgid ""
+"Define comment or rule description. If \"%s\" is enabled it can be used as "
+"shipping method title."
+msgstr ""
+
+#: templates/help.php:54
+msgid "Enable or Disable rule. Rule is only checked if it is enabled."
+msgstr ""
+
+#: templates/help.php:57
+msgid "Delete rule."
+msgstr ""
+
+#: templates/help.php:58
+msgid "Move"
+msgstr ""
+
+#: templates/help.php:58
+msgid "You can drag drop rules to arrange it based on \"%s\"."
+msgstr ""
+
+#: templates/help.php:61
+msgid "Save new rules."
+msgstr ""
+
+#: templates/help.php:64
+msgid "Select whether or not to apply tax to the shipping amount."
+msgstr ""
+
+#: templates/help.php:67
+msgid "In this type actual weight is used."
+msgstr ""
+
+#: templates/help.php:68
+msgid "In this type volumetric weight is used."
+msgstr ""
+
+#: templates/help.php:69
+msgid "In this type greater among actual and volumetric weights is used."
+msgstr ""
+
+#: templates/help.php:70
+msgid "In this type smaller among actual and volumetric weights is used."
+msgstr ""
+
+#: templates/help.php:73
+msgid "It is the volume divisor used to calculate volumetric weight."
+msgstr ""
+
+#: templates/help.php:76
+msgid "In this type tax inclusive price is used."
+msgstr ""
+
+#: templates/help.php:77
+msgid "In this type tax exclusive price is used."
+msgstr ""
+
+#: templates/help.php:82
+msgid ""
+"In this type all cart items are considered as one package. All combined "
+"shipping classes and totaled weight, price, quantity and volume are checked "
+"for matching rule."
+msgstr ""
+
+#: templates/help.php:83
+msgid ""
+"In this type every line in cart is considered as separate package. Each line "
+"is checked for matching rule and found prices are totaled to get final "
+"shipping."
+msgstr ""
+
+#: templates/help.php:84
+msgid ""
+"In this type all the line with common shipping class is considered as "
+"separate package. Each package is checked for matching rule and found prices "
+"are totaled to get final shipping."
+msgstr ""
+
+#: templates/help.php:89
+msgid ""
+"If it is enabled and if \"%s\" is \"%s\" then comment of matching rule is "
+"shown as shipping method title during checkout and if \"%s\" is \"%s\" or "
+"\"%s\" and if all found rules have same comment then comment is used else "
+"\"%s\" is used as shipping method title."
+msgstr ""
+
+#: templates/help.php:100
+msgid "Features"
+msgstr ""
+
+#: templates/help.php:102
+msgid ""
+"In formula you can use below operators, variables and functions. E.g. "
+"2*ceil(twi)+2.5. Using formulas you can implement complex shipping "
+"requirements."
+msgstr ""
+
+#: templates/help.php:104
+msgid "Operators"
+msgstr ""
+
+#: templates/help.php:104
+msgid "+, -, * and /."
+msgstr ""
+
+#: templates/help.php:105
+msgid "Variables"
+msgstr ""
+
+#: templates/help.php:105
+msgid ""
+"Suffix f, t and i in below variables means upper limit, lower limit and "
+"increase in current rule. E.g. if weight range limit is 10-20 and package "
+"weight is 13 then tw = 13, twf = 10, twt = 20 and twi = 3."
+msgstr ""
+
+#: templates/help.php:107
+msgid "Total weight."
+msgstr ""
+
+#: templates/help.php:107
+msgid "Total weight from."
+msgstr ""
+
+#: templates/help.php:107
+msgid "Total weight to."
+msgstr ""
+
+#: templates/help.php:107
+msgid "Total weight increase."
+msgstr ""
+
+#: templates/help.php:108
+msgid "Total price(tax incl.)."
+msgstr ""
+
+#: templates/help.php:108
+msgid "Total price(tax incl.) from."
+msgstr ""
+
+#: templates/help.php:108
+msgid "Total price(tax incl.) to."
+msgstr ""
+
+#: templates/help.php:108
+msgid "Total price(tax incl.) increase."
+msgstr ""
+
+#: templates/help.php:109
+msgid "Total quantity."
+msgstr ""
+
+#: templates/help.php:109
+msgid "Total quantity from."
+msgstr ""
+
+#: templates/help.php:109
+msgid "Total quantity to."
+msgstr ""
+
+#: templates/help.php:109
+msgid "Total quantity increase."
+msgstr ""
+
+#: templates/help.php:110
+msgid "Total volume."
+msgstr ""
+
+#: templates/help.php:110
+msgid "Total volume from."
+msgstr ""
+
+#: templates/help.php:110
+msgid "Total volume to."
+msgstr ""
+
+#: templates/help.php:110
+msgid "Total volume increase."
+msgstr ""
+
+#: templates/help.php:111
+msgid "Skip current rule."
+msgstr ""
+
+#: templates/help.php:112
+msgid "Stop checking further and discard shipping method."
+msgstr ""
+
+#: templates/help.php:115
+msgid "Functions"
+msgstr ""
+
+#: templates/help.php:117
+msgid "Return numbers rounded up to the nearest integer. E.g. ceil(2.4) = 3."
+msgstr ""
+
+#: templates/help.php:118
+msgid "Return numbers rounded down to the nearest integer. E.g. ceil(2.4) = 2."
+msgstr ""
+
+#: templates/help.php:119
+msgid "Return square root of numbers. E.g. sqrt(9) = 3."
+msgstr ""
+
+#: templates/help.php:120
+msgid "Return absolute value of numbers. E.g. abs(-4.2) = 4.2."
+msgstr ""
+
+#: templates/help.php:127
+msgid "Use Cases"
+msgstr ""
+
+#: templates/help.php:129
+msgid "Shipping by increase in weight, price, quantity or volume"
+msgstr ""
+
+#: templates/help.php:131
+msgid ""
+"E.g. if 0-10kg then $15 and if 10-100kg then $2 per kg weight increase:"
+"<br>When weight range 0-10 shipping cost is 15 and when weight range is "
+"10-100 shipping cost is 15+ceil(twi), where \"%s\" is increase in weight and "
+"\"%s\" rounds number up to nearest integer."
+msgstr ""
+
+#: templates/help.php:137
+msgid ""
+"Please submit ticket <a href=\"%s\" target=\"_blank\">here</a> to get "
+"further help."
+msgstr ""
+
+#. #-#-#-#-#  tablerateshipping.pot (Table Rate Shipping 1.2.1)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  tablerateshipping.pot (Table Rate Shipping 1.2.1)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://www.kahanit.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Table Rate Shipping by Class, Weight, Price, Quantity & Volume for "
+"WooCommerce."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Kahanit"
+msgstr ""

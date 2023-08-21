@@ -1,0 +1,34 @@
+<!--
+ * Table Rate Shipping by Class, Weight, Price, Quantity & Volume for WooCommerce - Kahanit
+ *
+ * Table Rate Shipping by Kahanit(https://www.kahanit.com/) is licensed under a
+ * Creative Creative Commons Attribution-NoDerivatives 4.0 International License.
+ * Based on a work at https://www.kahanit.com/.
+ * Permissions beyond the scope of this license may be available at https://www.kahanit.com/.
+ * To view a copy of this license, visit http://creativecommons.org/licenses/by-nd/4.0/.
+ *
+ * @author    Amit Sidhpura <amit@kahanit.com>
+ * @copyright 2017 Kahanit
+ * @license   http://creativecommons.org/licenses/by-nd/4.0/
+ -->
+
+<phpunit
+        bootstrap="tests/phpunit/bootstrap.php"
+        backupGlobals="false"
+        colors="true"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+        verbose="true"
+        syntaxCheck="true">
+    <testsuites name="Table Rate Shipping Test Suite">
+        <testsuite>
+            <directory suffix=".php">./tests/phpunit/tests/</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">./</directory>
+        </whitelist>
+    </filter>
+</phpunit>

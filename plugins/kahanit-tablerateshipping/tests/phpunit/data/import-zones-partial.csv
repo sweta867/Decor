@@ -1,0 +1,10 @@
+zone,continent,country,state,postcode,class,weight,price,quantity,volume,cost,comment,active
+Asia One,AS,"IN
+JP","IN:GJ
+JP:JP01","364290
+364291","sclass-one,sclass-two",1,,,,26,FedEx,1
+,,,,,,2,,,,27,FedEx,1
+,,,,,,3,,,,28,FedEx,1
+Asia Two,AS,IN,IN:GJ,364291,,1,,,,26,FedEx,1
+,,,,,,2,,,,27,FedEx,1
+,,,,,,2,,,,27,FedEx,1
